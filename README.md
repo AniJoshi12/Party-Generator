@@ -34,3 +34,7 @@ Synopsys 28nm PDK: The Synopsys 28nm Process Design Kit(PDK) was used in creatio
 # CMOS Inverter Gate
 ![Inverter](https://user-images.githubusercontent.com/100522966/155893158-d4e660bd-86b3-4030-a142-3747dd995419.JPG)
 
+# CMOS XOR Gate
+![Xor](https://user-images.githubusercontent.com/100522966/155893190-c46562ef-97d0-49e3-8f29-ba2f571bc662.JPG)
+
+
