@@ -1,14 +1,16 @@
 # DESIGN OF EVEN/ODD 4-BIT PARITY GENERATOR USING TWO TRANSISTOR XOR MODULE
 This repository presents the design of Parity Generator using 28nm CMOS Technology alongwith Synopsis Custom Compiler.
 # Table Of Content
+1. @ Abstract
+2. Introduction
 
 # Abstract
 In this paper , I am going to design Parity Generator using CMOS technology. MOSFETs are implemented using 28nm technology.
 The parity generating method is one of the most widely used error detection techniques for data transmission which is designed
 with the help of xor gates. The number of xor gates to be used depends on number of bits whose parity has to be checked.
 Generally for N-bits, N-1 Xor gates are needed. So it is important to build xor gate with minimum number of transistors.
-Conventionally to design xor gate it requires 8 transistors[If inverted inputs are present] which takes more area, consumes 
-more power and delay is also more. So here I am designing xor with the help of 2 transistors[If inverted inputs are present] only 
+Conventionally to design xor gate it requires 8 transistors [If inverted inputs are present] which takes more area, consumes 
+more power and delay is also more. So here I am designing xor with the help of 2 transistors [If inverted inputs are present] only 
 which leads to decrease area , power consumption and delay.
 
 # Introduction
@@ -18,4 +20,6 @@ which has been send. Due to this there is chance of miscommunication means data 
 To remove all these changes we add parity bit to the last of the message signal depending on the number of ones in that message. 
 If number of ones are odd then to make the even parity we add the 1 at the last of the message signal and add ‘0’ in case of odd 
 parity to keep it as it is and vice versa in case of even number of ones.
+
+# Working
 
