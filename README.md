@@ -1,5 +1,5 @@
 # DESIGN OF EVEN/ODD 4-BIT PARITY GENERATOR USING TWO TRANSISTOR XOR MODULE
-This repository presents the design of Parity Generator using 28nm CMOS Technology alongwith Synopsis Custom Compiler.
+This repository presents the design of Parity Generator using 28nm CMOS Technology and tool used is Synopsis Custom Compiler.
 # Table Of Content
 - [Abstract](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Abstract)
 - [Introduction](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Introduction)
@@ -32,6 +32,8 @@ If number of ones are odd then to make the even parity we add the 1 at the last 
 parity to keep it as it is and vice versa in case of even number of ones.
 
 # Working
+
+
 
 # Tool Used
 - Synopsys Custom Compiler: The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart
