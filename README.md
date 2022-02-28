@@ -4,9 +4,13 @@ This repository presents the design of Parity Generator using 28nm CMOS Technolo
 - [Abstract](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Abstract)
 - [Introduction](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Introduction)
 - [Working](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Working)
-- [Tool Used](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Tool Used)
-- [CMOS Inverter Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS Inverter Gate)
-- [CMOS XOR Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS XOR Gate)
+- [Tool Used](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Tool-Used)
+- [CMOS Inverter Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS-Inverter-Gate)
+- [CMOS XOR Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS-XOR-Gate)
+- [Parity Generator](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Parity-Generator)
+- [Parity Generator Testbench Design](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Parity-Generator-Testbench-Design)
+- [Expected Waveform](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Expected-Waveform)
+- [Simulated Waveform](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Simulated-Waveform)
 
 
 
