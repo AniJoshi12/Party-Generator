@@ -99,6 +99,7 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
 
 # Schematic Netlist
+The netlist is present here : [Netlist]()
 *  Generated for: PrimeSim
 *  Design library name: Parity_gene
 *  Design cell name: final_tb
@@ -213,3 +214,6 @@ Volume 5 Issue 9 – Sep 2018
 [3] https://www.electronicshub.org/parity-generator-and-parity-check/
 
 [4] https://old.amu.ac.in/emp/studym/100006525.pdf
+
+# Author
+Aniruddha Abhay Joshi , MTech VLSI Design , Vellore Institute Of Technology , Vellore
