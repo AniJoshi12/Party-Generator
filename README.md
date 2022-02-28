@@ -3,6 +3,12 @@ This repository presents the design of Parity Generator using 28nm CMOS Technolo
 # Table Of Content
 - [Abstract](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Abstract)
 - [Introduction](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Introduction)
+- [Working](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Working)
+- [Tool Used](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Tool Used)
+- [CMOS Inverter Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS Inverter Gate)
+- [CMOS XOR Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS XOR Gate)
+
+
 
 # Abstract
 In this paper , I am going to design Parity Generator using CMOS technology. MOSFETs are implemented using 28nm technology.
@@ -36,5 +42,18 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 
 # CMOS XOR Gate
 ![Xor](https://user-images.githubusercontent.com/100522966/155893190-c46562ef-97d0-49e3-8f29-ba2f571bc662.JPG)
+
+# Parity Generator
+![Parity_gene](https://user-images.githubusercontent.com/100522966/156007810-cc253626-0b31-4a6e-8a32-caff9ab709b0.JPG)
+
+# Parity Generator Testbench Design
+![Parity_gene_tb](https://user-images.githubusercontent.com/100522966/156007922-3579f5fd-f365-487b-8016-445c631a3551.JPG)
+
+# Expected Waveform
+![IMG20220218174033__01](https://user-images.githubusercontent.com/100522966/156008116-5f51fd3f-8820-4725-8ebd-84ab43a0ba35.jpg)
+
+# Simulated Waveform
+![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
+
 
 
