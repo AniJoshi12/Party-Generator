@@ -71,7 +71,7 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
 
 # Schematic Netlist
-*  Generated for: PrimeSim
+''' *  Generated for: PrimeSim
 *  Design library name: Parity_gene
 *  Design cell name: final_tb
 *  Design view name: schematic
