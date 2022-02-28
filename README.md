@@ -11,8 +11,8 @@ This repository presents the design of Parity Generator using 28nm CMOS Technolo
 - [Parity Generator Testbench Design](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Parity-Generator-Testbench-Design)
 - [Expected Waveform](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Expected-Waveform)
 - [Simulated Waveform](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Simulated-Waveform)
-
-
+- [Schematic Netlist](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Schematic-Netlist)
+- [References](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#References)
 
 # Abstract
 In this paper , I am going to design Parity Generator using CMOS technology. MOSFETs are implemented using 28nm technology.
@@ -168,8 +168,11 @@ c6 y gnd! c=0.1p
 [1] Abhishek Shukla , Subodh Wairya, “DESIGN OF ODD-EVEN 
 PARITY GENERATOR USING SIX TRANSISTORS XOR-XNOR,” 
 IRJET,2019
+
 [2] M.Sai Lakshmi , K.Mahammad Haneef , T.V.Nirmala , Dr.T.Lalith 
 Kumar , S.Saleem “6T FA Using 2T EX-OR Gate”, SSRG - IJECE –
 Volume 5 Issue 9 – Sep 2018
+
 [3] https://www.electronicshub.org/parity-generator-and-parity-check/
+
 [4] https://old.amu.ac.in/emp/studym/100006525.pdf
