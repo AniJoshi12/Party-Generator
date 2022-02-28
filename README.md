@@ -1,8 +1,8 @@
 # DESIGN OF EVEN/ODD 4-BIT PARITY GENERATOR USING TWO TRANSISTOR XOR MODULE
 This repository presents the design of Parity Generator using 28nm CMOS Technology alongwith Synopsis Custom Compiler.
 # Table Of Content
-- [Abstract](https://github.com/aniJoshi12/Parity-Generator/blob/main/Abstract)
-2.  Introduction
+- [Abstract](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Abstract)
+- [Introduction](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Introduction)
 
 # Abstract
 In this paper , I am going to design Parity Generator using CMOS technology. MOSFETs are implemented using 28nm technology.
