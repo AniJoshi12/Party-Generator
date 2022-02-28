@@ -1,1 +1,94 @@
-asc
+*  Generated for: PrimeSim
+*  Design library name: Parity_gene
+*  Design cell name: final_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 16:01:18 2022
+
+.global gnd!
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : cp_inv
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cp_inv a vdd vss y
+xm0 y a vss vss n105 w=0.1u l=30n nf=1 m=1
+xm11 y a vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+.ends cp_inv
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : cp_xor
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cp_xor a b vdd vss y
+xi0 a vdd vss net12 cp_inv
+xm5 y b a vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm2 y b net12 vss n105 w=0.1u l=30n nf=1 m=1
+.ends cp_xor
+
+********************************************************************************
+* Library          : Parity_gene
+* Cell             : final
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt final a b c d vdd vss y yb
+xi2 net15 net14 vdd vss net27 cp_xor
+xi1 c d vdd vss net15 cp_xor
+xi0 a b vdd vss net14 cp_xor
+xi4 yb vdd vss y cp_inv
+xi3 net27 vdd vss yb cp_inv
+.ends final
+
+********************************************************************************
+* Library          : Parity_gene
+* Cell             : final_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 a b c d net28 gnd! y yb final
+v1 net28 gnd! dc=1.05
+v5 d gnd! dc=0 pulse ( 0 1.05 0 1n 1n 1u 2u )
+v4 c gnd! dc=0 pulse ( 0 1.05 0 1n 1n 2u 4u )
+v3 b gnd! dc=0 pulse ( 0 1.05 0 1n 1n 4u 8u )
+v2 a gnd! dc=0 pulse ( 0 1.05 0 1n 1n 8u 16u )
+c12 yb gnd! c=0.1p
+c6 y gnd! c=0.1p
+
+
+
+
+
+
+
+
+.tran '1u' '16u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a) v(b) v(c) v(d) v(y) v(yb)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
