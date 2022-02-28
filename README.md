@@ -35,12 +35,14 @@ parity to keep it as it is and vice versa in case of even number of ones.
 Here we are designing 4 bit parity generator so as mentioned number of xor gates required to build this circuit will be 3.
 So here we are giving 2 inputs to one xor gate and another 2 inputs to another one. Output of these respected results is
 given to the another xor gate which produces even parity bit and if we connect inverter next to it, circuit produces odd parity 
-bit. In the upcoming circuit we will see 2 inverters connected after the parity generator which are nothing but acting as a buffer circuit.
+bit. In the upcoming circuit we will see 2 inverters connected after the parity generator which are collectively acting as a buffer circuit.
 Buffer circuit is used here to amplify the weak output so that output states will be clearly understandable.
 - Truth Table
 ![IMG20220218174656__01](https://user-images.githubusercontent.com/100522966/156021375-95a4c002-123b-486d-bb41-f6431148d66b.jpg)
 
 - The truth table can be verified with the help of following calculations
+
+
 ![image](https://user-images.githubusercontent.com/100522966/156019591-67a3fc94-c704-463d-94dc-8878aa3cd674.png)
 
 Coming to the CMOS Design , I designed xor gate with the help 
@@ -70,6 +72,16 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 
 # Parity Generator Testbench Design
 ![Parity_gene_tb](https://user-images.githubusercontent.com/100522966/156007922-3579f5fd-f365-487b-8016-445c631a3551.JPG)
+
+# Combination For Input
+- A:![ip A](https://user-images.githubusercontent.com/100522966/156022526-96dee06f-ed3b-485f-948a-1d96c6bfe70a.JPG)
+
+- B:![ip B](https://user-images.githubusercontent.com/100522966/156022547-102831a6-5391-4bdb-85b5-94275114c583.JPG)
+
+- C:![ip C](https://user-images.githubusercontent.com/100522966/156022571-6044901f-200e-46bb-87c2-319e3cc2b596.JPG)
+
+- D:![ip D](https://user-images.githubusercontent.com/100522966/156022588-2464d4ce-24c8-4e56-a09b-f662dae5205d.JPG)
+
 
 # Expected Waveform
 ![IMG20220218174033__01](https://user-images.githubusercontent.com/100522966/156008116-5f51fd3f-8820-4725-8ebd-84ab43a0ba35.jpg)
