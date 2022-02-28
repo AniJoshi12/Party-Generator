@@ -32,6 +32,15 @@ If number of ones are odd then to make the even parity we add the 1 at the last 
 parity to keep it as it is and vice versa in case of even number of ones.
 
 # Working
+Here we are designing 4 bit parity generator so as mentioned number of xor gates required to build this circuit will be 3.
+So here we are giving 2 inputs to one xor gate and another 2 inputs to another one. Output of these respected results is
+given to the another xor gate which produces even parity bit and if we connect inverter next to it, circuit produces odd parity 
+bit. In the upcoming circuit we will see 2 inverters connected after the parity generator which are nothing but acting as a buffer circuit.
+Buffer circuit is used here to amplify the weak output so that output states will be clearly understandable.
+- Truth Table
+![IMG20220218174656__01](https://user-images.githubusercontent.com/100522966/156021375-95a4c002-123b-486d-bb41-f6431148d66b.jpg)
+
+- The truth table can be verified with the help of following calculations
 ![image](https://user-images.githubusercontent.com/100522966/156019591-67a3fc94-c704-463d-94dc-8878aa3cd674.png)
 
 Coming to the CMOS Design , I designed xor gate with the help 
