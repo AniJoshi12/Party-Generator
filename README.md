@@ -13,6 +13,7 @@ This repository presents the design of Parity Generator using 28nm CMOS Technolo
 - [Simulated Waveform](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Simulated-Waveform)
 - [Schematic Netlist](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Schematic-Netlist)
 - [References](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#References)
+- [Acknowledgements](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Acknowledgements)
 
 # Abstract
 In this paper , I am going to design Parity Generator using CMOS technology. MOSFETs are implemented using 28nm technology.
@@ -74,13 +75,21 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Parity_gene_tb](https://user-images.githubusercontent.com/100522966/156007922-3579f5fd-f365-487b-8016-445c631a3551.JPG)
 
 # Combination For Input
-- A:![ip A](https://user-images.githubusercontent.com/100522966/156022526-96dee06f-ed3b-485f-948a-1d96c6bfe70a.JPG)
+- A:
+ 
+![ip A](https://user-images.githubusercontent.com/100522966/156022526-96dee06f-ed3b-485f-948a-1d96c6bfe70a.JPG)
 
-- B:![ip B](https://user-images.githubusercontent.com/100522966/156022547-102831a6-5391-4bdb-85b5-94275114c583.JPG)
+- B:
+ 
+![ip B](https://user-images.githubusercontent.com/100522966/156022547-102831a6-5391-4bdb-85b5-94275114c583.JPG)
 
-- C:![ip C](https://user-images.githubusercontent.com/100522966/156022571-6044901f-200e-46bb-87c2-319e3cc2b596.JPG)
+- C:
+ 
+![ip C](https://user-images.githubusercontent.com/100522966/156022571-6044901f-200e-46bb-87c2-319e3cc2b596.JPG)
 
-- D:![ip D](https://user-images.githubusercontent.com/100522966/156022588-2464d4ce-24c8-4e56-a09b-f662dae5205d.JPG)
+- D:
+ 
+![ip D](https://user-images.githubusercontent.com/100522966/156022588-2464d4ce-24c8-4e56-a09b-f662dae5205d.JPG)
 
 
 # Expected Waveform
@@ -184,6 +193,13 @@ c6 y gnd! c=0.1p
 
 
 .end
+
+# Acknowledgements
+- [Kunal Ghosh , Co-Founder , VSD Corp. Pvt. Lim.](https://github.com/kunalg123)
+- [Synopsys India](https://www.synopsys.com/)
+- [Indian Institute Of Technology , Hyderabad ](https://iith.ac.in/)
+- Chinmay Panda , IIT Hyderabad
+- Sameer Durgoji , NIT Karnataka
 
 # References
 [1] Abhishek Shukla , Subodh Wairya, “DESIGN OF ODD-EVEN 
