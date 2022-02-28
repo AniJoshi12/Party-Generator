@@ -32,16 +32,14 @@ If number of ones are odd then to make the even parity we add the 1 at the last 
 parity to keep it as it is and vice versa in case of even number of ones.
 
 # Working
+![image](https://user-images.githubusercontent.com/100522966/156019591-67a3fc94-c704-463d-94dc-8878aa3cd674.png)
+
 Coming to the CMOS Design , I designed xor gate with the help 
 of 2 transistors and for each xor gate there is need of one 
 complementary input which is designed with the help of inverters. 
 For 4 bit Parity generator there is need of 3 xor circuits and for 
-complete xor operation it had taken 4 transistors, so total number of 
-transistors to design this circuit is 12. Top left circuit produce A xor 
-B and bottom left will produce C xor D. Result of last stage(Y) is 
-even parity and if we give even parity as input to inverter it will 
-produce odd parity.Y is even parity output and Yb is odd parity 
-output
+complete xor operation it takes 4 transistors, so total number of 
+transistors to design this circuit is 12. 
 
 
 # Tool Used
@@ -71,7 +69,7 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
 
 # Schematic Netlist
-''' *  Generated for: PrimeSim
+*  Generated for: PrimeSim
 *  Design library name: Parity_gene
 *  Design cell name: final_tb
 *  Design view name: schematic
@@ -165,4 +163,3 @@ c6 y gnd! c=0.1p
 
 
 .end
-
